@@ -1,9 +1,15 @@
-import Header from '../layout/header/header';
-import '../../styles/App.css';
+import Header from '../layout/header';
+import '../../styles/index.css'
+import Footer from '../layout/footer'
 
 function Accueil() {
   return (
+    <div>
+    <div className='margin'>
     <Header />
+    </div>
+    <Footer />
+    </div>
   );
 }
 

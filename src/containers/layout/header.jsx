@@ -1,17 +1,12 @@
 import { Link, useLocation } from 'react-router-dom'
-import '../../../styles/header.css'
-import Logo from '../../../assets/Logo.svg'
+import '../../styles/header.css'
+import { LogoHeader } from '../../components/logo.jsx'
 
   function Header() { 
     const location = useLocation()
-    console.log(location)
   return (
     <nav className="nav">
-      <div className="logo">
-        <span>K</span>
-        <img src={Logo} alt="logo" />
-        <span>sa</span>
-      </div>
+      <LogoHeader />
       <div className="links">
           <Link style={{borderBottom: location.pathname === "/" ? "thin solid #FF6060" : "none"}} 
           to="/">Accueil</Link>

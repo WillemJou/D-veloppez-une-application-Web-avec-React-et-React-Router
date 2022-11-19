@@ -1,13 +1,19 @@
 
-import Header from '../layout/header/header';
-import '../../styles/App.css';
+import Header from '../layout/header';
+import { Link } from 'react-router-dom'
+import '../../styles/error404.css'
+import '../../styles/index.css'
 
 function Error() {
   return (
       <div>
         <Header />
-            <h1>Oups 🙈 Cette page n'existe pas</h1>
+        <div className='column'>
+            <h1>404</h1>
+            <span className='info-error'>Oups! La page que vous demandez n'existe pas.</span>
+            <Link className='home-link' to="/">Retournez vers la page d'accueil</Link>
         </div>
+      </div>
   );
 }
  
