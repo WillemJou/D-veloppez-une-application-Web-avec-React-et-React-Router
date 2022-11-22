@@ -1,6 +1,6 @@
-import '../../styles/footer.css'
 import { LogoFooter } from '../../components/logo.jsx'
 import copyright from '../../assets/copyright.svg'
+import '../../styles/footer.css'
 
 function Footer() {
     return (

@@ -9,7 +9,7 @@ function Error() {
       <div>
         <Header />
         <div className='column'>
-            <h1>404</h1>
+            <h1 className='title-error'>404</h1>
             <span className='info-error'>Oups! La page que vous demandez n'existe pas.</span>
             <Link className='home-link' to="/">Retournez vers la page d'accueil</Link>
         </div>
