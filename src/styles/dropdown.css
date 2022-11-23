@@ -1,0 +1,35 @@
+.main-container {
+    margin: 2% 5%;
+}
+
+.banner {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 6px;
+    border-style: none;
+    background-color: #FF6060;
+    border-start-end-radius: 10px;
+    border-start-start-radius: 10px;
+    border-end-end-radius: 5px ;
+    border-end-start-radius: 5px ;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 142.6%;
+}
+
+.chevron {
+    width: 20px;
+    height: auto;
+    align-items: center;
+}
+
+.main-content {
+    color: #FF6060;
+    background: #F7F7F7;
+    border-end-end-radius: 10px;
+    border-end-start-radius: 10px;
+    padding: 2%;
+}
