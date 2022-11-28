@@ -1,16 +1,21 @@
-import Header from '../layout/header';
+import Header from '../layout/header'
+import ApartmentSheets from '../../components/apartmentSheets'
 import Footer from '../layout/footer'
+import "../../assets/data.json"
 import '../../styles/index.css'
 
-function FicheLogement() {
+function FicheLogement() {  
+  
+  
   return (
-    <div>
+    <>
     <div className='margin'>
     <Header />
+    <ApartmentSheets />
     </div>
     <Footer />
-    </div>
-  );
+    </>
+  )
 }
 
 export default FicheLogement;

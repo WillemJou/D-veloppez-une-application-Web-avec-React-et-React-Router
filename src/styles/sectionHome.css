@@ -1,7 +1,0 @@
-.wrapper {
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    background: #F7F7F7;
-    border-radius: 25px;
-    margin: 5% 0;
-}

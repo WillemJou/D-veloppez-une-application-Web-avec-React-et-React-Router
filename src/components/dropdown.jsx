@@ -10,7 +10,7 @@ function DropdownMenu({ title, content }) {
     return [setRotateChevron(!rotateChevron), setOpen(!open)]
   }
   return (
-    <div className="main-container">
+    <div className="menu">
       <button className="banner" onClick={() => handleOpen()}>
         {title}
         <img

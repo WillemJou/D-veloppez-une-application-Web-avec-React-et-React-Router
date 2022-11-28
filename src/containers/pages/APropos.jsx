@@ -2,6 +2,7 @@ import Header from '../layout/header';
 import imgapropos from '../../assets/imgapropos.png'
 import DropdownMenu from '../../components/dropdown'
 import Footer from '../layout/footer'
+import "../../styles/a-propos.css"
 import '../../styles/accueil.css'
 import '../../styles/index.css'
 
@@ -51,13 +52,9 @@ function Sécurité() {
   )
 }
 
-
-
-
-
 function APropos() {
   return (
-    <div>
+    <>
       <div className='margin'>
     <Header />
     <img className='pic-header' src={imgapropos} alt="slogan"/>
@@ -67,7 +64,7 @@ function APropos() {
     <Sécurité/>
     </div>
     <Footer />
-    </div>
+    </>
   );
 }
 

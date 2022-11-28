@@ -5,6 +5,7 @@ import Accueil from './containers/pages/Accueil';
 import FicheLogement from './containers/pages/FicheLogement';
 import APropos from './containers/pages/APropos';
 import Error from './containers/pages/error404'
+import data from "./assets/data.json"
 import './styles/index.css';
 import reportWebVitals from './reportWebVitals';
 
@@ -14,7 +15,7 @@ root.render(
      <BrowserRouter>
        <Routes>
          <Route path="/" element={<Accueil />} />
-         <Route path="/fiche-logement" element={<FicheLogement />} />
+         <Route path="/fiche-logement/:id" data={data} element={<FicheLogement />} />
          <Route path="/a-propos" element={<APropos />} />
          <Route path="*" element={<Error />} />
        </Routes>
