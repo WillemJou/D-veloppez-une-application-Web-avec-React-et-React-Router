@@ -58,10 +58,12 @@ function APropos() {
       <div className='margin'>
     <Header />
     <img className='pic-header' src={imgapropos} alt="slogan"/>
+    <div className='bloc'>
     <Fiabilité />
     <Respect />
     <Service />
     <Sécurité/>
+    </div>
     </div>
     <Footer />
     </>

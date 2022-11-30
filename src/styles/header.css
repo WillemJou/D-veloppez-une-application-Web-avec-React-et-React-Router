@@ -10,7 +10,34 @@
     width: 20%;
 }
 
-a {
+.nav-links {
     color: #FF6060;
+    text-align: center;
     text-decoration: none;
+}
+
+@media (max-width: 715px) {
+    .links {
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        gap: 10px;
+        margin: 20px 0;
+        align-items: baseline;
+    }
+}
+
+@media (max-width: 370px) {
+    .nav {
+      flex-direction: column;  
+    }
+
+    .links {
+        width: 100%;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+    }
 }

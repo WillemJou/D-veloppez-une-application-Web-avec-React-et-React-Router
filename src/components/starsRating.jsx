@@ -1,12 +1,14 @@
 import starorange from "../assets/starorange.svg"
 import stargrey from "../assets/stargrey.svg"
-import { FindApartment } from './apartmentSheets'
+import { useFindApartment } from './apartmentSheets'
 import "../styles/apartmentSheets.css"
 
-function StarsRating() {
+
+
+function StarsRating({apartment}) {
     let starArr = []
     for (let i = 0; i < 5; i++) {
-        i < FindApartment().rating
+        i < apartment.rating
           ? starArr.push(<img src={starorange} alt="starorange" className="star" />)
           : starArr.push(
               <img key={i} src={stargrey} alt="stargrey" className="star" />

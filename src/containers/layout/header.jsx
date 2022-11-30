@@ -8,9 +8,9 @@ import '../../styles/header.css'
     <nav className="nav">
       <LogoHeader />
       <div className="links">
-          <Link style={{borderBottom: location.pathname === "/" ? "thin solid #FF6060" : "none"}} 
+          <Link className='nav-links' style={{borderBottom: location.pathname === "/" ? "thin solid #FF6060" : "none"}} 
           to="/">Accueil</Link>
-          <Link style={{borderBottom: location.pathname === "/a-propos" ? "thin solid #FF6060" : "none"}}  
+          <Link className='nav-links' style={{borderBottom: location.pathname === "/a-propos" ? "thin solid #FF6060" : "none"}}  
           to="/a-propos">A propos</Link>
         </div>
     </nav>

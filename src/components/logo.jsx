@@ -1,14 +1,15 @@
 import logoorange from '../assets/logoorange.svg'
+import { Link } from 'react-router-dom'
 import logowhite from '../assets/logowhite.svg'
 import '../styles/logo.css'
 
 function LogoHeader() {
     return (
-        <div className='logo-header'>
-        <span>K</span>
-        <img src={logoorange} alt="logo" />
-        <span>sa</span>
-      </div>
+        <Link to="/" className='logo-header'>
+        <span className='logo-header'>K</span>
+        <img className='logo' src={logoorange} alt="logo" />
+        <span className='logo-header'>sa</span>
+      </Link>
     )
 }
 

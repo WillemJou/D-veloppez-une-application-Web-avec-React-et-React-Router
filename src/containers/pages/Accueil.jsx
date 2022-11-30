@@ -12,7 +12,7 @@ function Accueil() {
     <Header />
     <div className='position'>
       <span className='slogan'>Chez vous, partout et ailleurs</span>
-    <img className='pic-header' src={IMG} alt="slogan"/>
+    <div className='pic-header-container'><img className='pic-header' src={IMG} alt="slogan"/></div>
     </div>
     <section className='wrapper'>
       < Cards />

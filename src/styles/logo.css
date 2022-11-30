@@ -11,3 +11,13 @@
 .svg-footer {
     width: 20%;
 }
+
+@media (max-width: 715px) {
+    .logo-header {
+        font-size: 75px;
+    }
+
+    .logo {
+        width: 30px;
+    }   
+}

@@ -1,11 +1,14 @@
 
 .dropdown-container {
+    margin-top: 20px;
     display: flex;
+    gap: 30px;
 }
 .title-container {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    gap: 10px;
 }
 .title-flat {
     font-style: normal;
@@ -76,4 +79,35 @@
     margin: 0 3%;
     width: 30px;
     height: auto;
+}
+
+@media (max-width: 777px) {
+    .main-info-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .title-container {
+        margin-bottom: 5%;
+        align-items: center;
+        text-align: center;
+    }
+    .host-stars-container {
+        gap: 4%;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .dropdown-container{
+        flex-direction: column;
+    }
+    .host-container{
+        justify-content: center;
+        gap: 5px;
+    }
+}
+
+@media (max-width: 425px) {
+    .host-stars-container {
+        flex-direction: column;
+    }
 }
