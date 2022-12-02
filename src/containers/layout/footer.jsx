@@ -1,4 +1,4 @@
-import { LogoFooter } from '../../components/logo.jsx'
+import { LogoFooter } from '../../components/logoFooter'
 import copyright from '../../assets/copyright.svg'
 import '../../styles/footer.css'
 

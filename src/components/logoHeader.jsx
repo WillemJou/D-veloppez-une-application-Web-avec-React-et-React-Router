@@ -1,6 +1,5 @@
 import logoorange from '../assets/logoorange.svg'
 import { Link } from 'react-router-dom'
-import logowhite from '../assets/logowhite.svg'
 import '../styles/logo.css'
 
 function LogoHeader() {
@@ -13,14 +12,4 @@ function LogoHeader() {
     )
 }
 
-function LogoFooter() {
-  return (
-      <div className='logo-footer'>
-      <span>K</span>
-      <img className='svg-footer' src={logowhite} alt="logo" />
-      <span>sa</span>
-    </div>
-  )
-}
-
-export { LogoHeader, LogoFooter }
+export { LogoHeader }

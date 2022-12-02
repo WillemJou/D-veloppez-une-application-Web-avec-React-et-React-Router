@@ -21,3 +21,19 @@
     width: max-content;
     margin: 10%;
 }
+
+@media (max-width: 715px) {
+    .title-error {
+        font-size: 100px;
+    }
+
+    .info-error {
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .home-link {
+        width: auto;
+        text-align: center;
+    }
+}    

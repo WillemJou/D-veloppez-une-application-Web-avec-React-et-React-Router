@@ -1,6 +1,5 @@
 import starorange from "../assets/starorange.svg"
 import stargrey from "../assets/stargrey.svg"
-import { useFindApartment } from './apartmentSheets'
 import "../styles/apartmentSheets.css"
 
 

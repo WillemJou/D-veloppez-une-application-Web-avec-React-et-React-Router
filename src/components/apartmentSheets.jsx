@@ -1,19 +1,11 @@
 import { useParams } from 'react-router-dom'
-import data from "../assets/data.json"
 import Header from '../containers/layout/header'
+import { useFindApartment } from '../hooks/hooks'
 import { Carousel } from './caroussel'
 import DropdownMenu from './dropdown'
 import StarsRating from './starsRating'
 import Error from '../containers/pages/error404'
 import "../styles/apartmentSheets.css"
-
-export const useFindApartment = (id) => {
-  const apartment = data.find((flat) => flat.id === id)
-  let error
-  if (!apartment) error = true
-  return { error, apartment}
-}
-
 
 function ApartmentSheets() {
   const { id } = useParams()

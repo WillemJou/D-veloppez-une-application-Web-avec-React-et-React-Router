@@ -1,5 +1,5 @@
 import { Link, useLocation } from 'react-router-dom'
-import { LogoHeader } from '../../components/logo.jsx'
+import { LogoHeader } from '../../components/logoHeader.jsx'
 import '../../styles/header.css'
 
   function Header() { 
